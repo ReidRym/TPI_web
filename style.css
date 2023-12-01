@@ -1,0 +1,41 @@
+
+:root {
+    --brown-background: #d2a56d;
+    --site-color-01: #361c0d;
+    --site-color-01-hover: #9e2f6e;
+    --site-color-02: #ffcf40;
+    --site-color-03: #0b253e;
+    --site-color-04: #b6977d;
+    --site-color-05: #196f3d;
+    --background-image-01: url(../assets/wood.png);
+    --background-image-02: url(../assets/newtimlogo.png);
+    --background-image-03: url(../assets/wood2.png);
+    --background-image-04: url(../assets/azcabin2.png);
+    --background-image-05: url(../assets/bg6.png);
+}
+body{
+    background-color: #1e1e1e;
+}
+h1{
+    font-size: 26px;
+    line-height:32px;
+    color:#fff;
+    font-family: Anton;
+    font-weight:600;
+    text-transform:uppercase;
+
+}
+p{
+    font-size: 14px;
+    line-height:18px;
+    color:#fff;
+    font-family: Anton;
+}
+a{
+    cursor:pointer;
+    font-size: 14px;
+    line-height:18px;
+    color:#fff;
+    font-family: Anton;
+    
+}
