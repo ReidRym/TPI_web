@@ -5,13 +5,15 @@
 }
 
 .nav-bar{
+    position: relative;
+    z-index: 2;
     height: 70px;
     background: #262626;
 }
 
 .brand{
     float: left;
-    position: absolute;
+    position: relative;
     padding-left: 20px;
     line-height: 70px;
     font-size: 1.5em;
@@ -90,7 +92,7 @@ nav ul li ul li a{
 
 .nav-mobile{
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     height: 70px;
@@ -143,7 +145,7 @@ nav ul li ul li a{
 
 /* Your existing CSS styles... */
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 997px) {
 
     .nav-mobile {
         display: block;
@@ -211,8 +213,8 @@ nav ul li ul li a{
         display: block;
     }
 }
-/* New media query for screens larger than 850px */
-@media only screen and (min-width: 851px) {
+
+@media only screen and (min-width: 997px) {
     .nav-list {
         display: block !important; /* Show the original navbar links on larger screens */
     }

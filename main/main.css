@@ -1,163 +1,84 @@
-
-
-*,
-*:before,
-*:after {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-}
-
-html {
-scrollbar-color: #926d34 transparent;
-scroll-behavior: smooth;
-overflow-x: hidden;
-}
-
-
 body {
-margin: 0;
-padding: 0;
-background: #000;
+  margin: 0;
 }
 
-#header {
-width: 100vw;
-height: 100vh;
-min-height: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: #000;
-background-image: url(../assets/headertint1.PNG);
-background-size: cover;
-background-position: center center;
-background-repeat: no-repeat;
-font-family: 'Cinzel Decorative', sans-serif;
+header {
+  background: url("../assets/mainhouse1.PNG") center/cover;
+  padding: 300px 20px 20px;
+  text-align: center;
+  height: 100vh;
 }
 
-.drop-shadow {
-height: 100%;
-width: 100%;
-filter: drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.30));
-display: flex;
-justify-content: center;
-align-items: center;
--webkit-animation: blurFadeIn 2s ease-in 1s backwards;
--moz-animation: blurFadeIn 2s ease-in 1s backwards;
-animation: blurFadeIn 2s ease-in 1s backwards;
+.logo-container {
+    position: absolute;
+    top:30px; /* Adjust the top property as needed */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.drop-shadow:before {
-display: block;
-content: "";
-position: absolute;
-top: 20%;
-height: calc(100% - 40%);
-width: calc(100% - 40%);
-border-top: 2px solid #e1e1e133;
-border-left: 1px solid #e1e1e11a;
-border-right: 1px solid #e1e1e14d;
-z-index: 2;
-filter: blur(1px);
+.logo {
+  max-width: 450px;
+  height: auto;
 }
 
-.drop-shadow span {
-position: absolute;
-z-index: 5;
-color: #926d34;
-font-size: clamp(1.5rem, 2.5vw, 3vw);
-letter-spacing: 0.75em;
-text-align: center;
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
-.glass {
-height: 100%;
-width: 100%;
-background-color: #000;
-background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/67900664590075.5ae6cffa512f5.jpg);
-background-size: cover;
-background-position: center center;
-background-repeat: no-repeat;
-clip-path: inset(20%);
-filter: blur(20px);
-display: flex;
-justify-content: center;
-align-items: center;
+.maintitle-container {
+  border: 2px solid #000 !important;
+  background-color: #0000007b !important;
+  padding: 5px;
+  margin-bottom: 150px;
 }
 
-@keyframes blurFadeIn {
-0% {
-opacity: 0;
-}
-50% {
-opacity: 0.5;
-}
-100% {
-opacity: 1;
-}
+h1,
+p {
+  margin: 0;
 }
 
-@-webkit-keyframes blurFadeIn {
-0% {
-opacity: 0;
-}
-50% {
-opacity: 0.5;
-}
-100% {
-opacity: 1;
-}
+.quotes-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
 
-@-moz-keyframes blurFadeIn {
-0% {
-opacity: 0;
-}
-50% {
-opacity: 0.5;
-}
-100% {
-opacity: 1;
-}
+blockquote {
+  flex: 1;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  padding: 10px;
 }
 
-article {
-display: block;
-clear: both;
-position: relative;
-padding: 0;
-text-align: center;
-background-color: #000;
+footer {
+  margin-top: 10px;
 }
-
-.row {
-display: flex;
-padding: 3rem 10%;
-justify-content: center;
+.main1 {
+  font-family: "Cinzel Decorative", sans-serif;
+  color: var(--site-color-02);
 }
-
-article h3 {
-font-family: 'Cinzel Decorative', sans-serif;
-font-size: clamp(1.5rem, 2.5vw, 3vw);
-font-weight: 100;
-color: #926d34;
-}
-
-@media (max-width: 1180px) {
-.glass {
-clip-path: inset(30% 10%);
-}
-
-.drop-shadow:before {
-top: 30%;
-width: calc(100% - 20%);
-height: calc(100% - 60%);
-}
-
-.drop-shadow span {
-display: table;
-padding: 0 2em;
-text-align: center;
+@media (max-width: 600px) {
+  /* Adjust the maximum width as needed */
+  .maintitle-container {
+    display: none !important; /* Hide the title container on small screens */
+  }
+  .quotes-container {
+    display: none !important; /* Hide the title container on small screens */
+  }
+ 
+   
+  .logo-container {
+    position: absolute;
+    top:400px; /* Adjust the top property as needed */
+    left: 50%;
+    transform: translateX(-50%);
 }
 }
