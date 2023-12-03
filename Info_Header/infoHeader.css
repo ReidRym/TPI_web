@@ -139,7 +139,7 @@ nav ul li ul li a{
     transform: rotate(-45deg);
 }
 
-/* Your existing CSS styles... */
+
 
 @media only screen and (max-width: 997px) {
 
@@ -212,11 +212,11 @@ nav ul li ul li a{
 
 @media only screen and (min-width: 997px) {
     .nav-list {
-        display: block !important; /* Show the original navbar links on larger screens */
+        display: block !important; 
     }
 
     .nav-mobile {
-        display: none; /* Hide the hamburger menu on larger screens */
+        display: none; 
     }
 }
 

@@ -14,17 +14,4 @@ $(document).ready(function () {
     this.classList.toggle("active");
   });
 });
-// infoHeader.js
 
-// document.addEventListener('DOMContentLoaded', function () {
-//   const navToggle = document.getElementById('nav-toggle');
-//   const mainQuotes = document.querySelector('.main-quotes');
-//   const mainIntro = document.querySelector('.main-intro');
-
-//   navToggle.addEventListener('click', function () {
-//     // Toggle the class when the hamburger icon is clicked
-//     mainQuotes.classList.toggle('hide-on-mobile');
-//     mainIntro.classList.toggle('hide-on-mobile');
-//   });
-  
-// });

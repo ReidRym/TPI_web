@@ -106,7 +106,7 @@ section {
 }
 
 
-/*  About  */
+
 .about {
   background-image: url(../assets/newbiobg.png);
   background-position: center;
@@ -172,7 +172,7 @@ section {
 
 
 
-/*  Media Query  */
+
 @keyframes pulsate {
   0% {
     box-shadow: 0 0 25px #888e8d, 0 0 50px #1e3551;

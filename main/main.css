@@ -82,7 +82,7 @@ margin: 0;
   text-shadow: 2px 2px #000;
 }
 
-/*start of popup*/
+
 .exclusions {
   font-family: Georgia;
   font-size: 18pt;
@@ -176,24 +176,24 @@ margin: 0;
   }
 }
 
-/* unvisited link */
+
 a:link {
   color: #fff;
   text-decoration: none;
 }
 
-/* visited link */
+
 a:visited {
   color: #fff;
 }
 
-/* mouse over link */
+
 a:hover {
   color: #ccc;
   text-decoration: none;
 }
 
-/* selected link */
+
 a:active {
   color: #fff;
 }

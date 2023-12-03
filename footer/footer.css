@@ -1,11 +1,11 @@
 .back-to-top-link {
   display: inline-block;
   font-size: 24px;
-  padding: 10px 20px; /* Increase padding */
+  padding: 10px 20px; 
   font-weight: 400;
   border: none;
   outline: none;
-  color: #fff; /* Change text color */
+  color: #fff; 
   background: linear-gradient(
     45deg,
     #999 5%,
@@ -24,16 +24,16 @@
 }
 
 .back-to-top-link:hover {
-  background-color: #0056b3; /* Change background color on hover */
+  background-color: #0056b3; 
   transform: translateY(-2px);
 }
 
-/* Position the "Back to Top" link at the bottom-right of the page */
+
 .back-to-top-link {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 2; /* Ensure it's above other elements */
+  z-index: 2; 
 }
 .container {
   max-width: 1170px;
