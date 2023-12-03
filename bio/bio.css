@@ -114,7 +114,7 @@ section {
   background-size: cover;
 }
 .about .title::after {
-  content: "—Our Mission ?—";
+  content: "—About Me—";
   text-overflow: ellipsis;
   display: -webkit-inline-box;
   -webkit-line-clamp: 3;
