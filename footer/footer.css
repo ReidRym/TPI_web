@@ -249,7 +249,7 @@ ul {
   background: transparent;
   color: var(--site-color-02);
   border: 2px solid #fff;
-  filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #000);
+  filter: drop-shadow(3px 2px 1px #000) drop-shadow(5px 5px 0px #000);
   cursor: pointer;
 }
 .tit-foot{
@@ -257,6 +257,6 @@ ul {
     font-size: 3.2em;
     -webkit-text-stroke-color: #000 2px;
     margin-bottom: 20px;
-    letter-spacing: 2px;
-    filter: drop-shadow(3px 2px 1px grey) drop-shadow(5px 5px 0px #000);
+    letter-spacing: 3px;
+    filter: drop-shadow(3px 2px 1px #000) drop-shadow(5px 5px 0px #000);
 }
